@@ -1,0 +1,17 @@
+;;!domain: ball-moving-robot
+;;!problem: move-balls
+
+0.00000: (pick-up robot arm1 ball1 room1)
+0.00100: (pick-up robot arm2 ball2 room1)
+0.00200: (move robot room1 room2)
+0.00300: (put-down robot arm1 ball1 room2)
+0.00400: (put-down robot arm2 ball2 room2)
+0.00500: (move robot room2 room1)
+0.00600: (pick-up robot arm1 ball3 room1)
+0.00700: (pick-up robot arm2 ball4 room1)
+0.00800: (move robot room1 room2)
+0.00900: (put-down robot arm1 ball3 room2)
+0.01000: (put-down robot arm2 ball4 room2)
+
+; Makespan: 0.010000000000000002
+; Metric: 0.010000000000000002
