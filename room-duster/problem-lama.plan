@@ -1,0 +1,11 @@
+;;!domain: room-duster
+;;!problem: clean-rooms
+
+0.00000: (clean odkurzacz pokoj1)
+0.00100: (move odkurzacz pokoj1 pokoj2)
+0.00200: (clean odkurzacz pokoj2)
+0.00300: (move odkurzacz pokoj2 pokoj3)
+0.00400: (clean odkurzacz pokoj3)
+
+; Makespan: 0.004
+; Metric: 0.004
